@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f0a500;
+}
+
+/* Services Hero section */
+#services-hero {
+    background: url('images/services-hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#services-hero .services-hero-text {
+    background: #333;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#services-hero h1 {
+    font-size: 3rem;
+}
+
+#services-hero p {
+    font-size: 1.25rem;
+}
+
+/* Services List section */
+#services-list {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#services-list h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.service p {
+    font-size: 1.1rem;
+}
+
+/* Process section */
+#process {
+    background: #f4f4f4;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#process h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.process-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.process-step {
+    flex: 1;
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.process-step img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.process-step h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.process-step p {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services-hero">
+            <div class="services-hero-text">
+                <h1>Our Services</h1>
+                <p>Discover the wide range of services we offer to help your business thrive.</p>
+            </div>
+        </section>
+
+        <section id="services-list">
+            <h2 style="color: yellow;">What We Offer</h2>
+            <div class="services-container">
+                <div class="service">
+                    <img src="images/web.jpeg" alt="Web Design">
+                    <h3 style="color: cyan;">Web Design</h3>
+                    <p  style="color: cyan;">We create visually appealing and user-friendly designs that engage your audience and reflect your brand.</p>
+                </div>
+                <div class="service">
+                    <img src="images/web 2.jpeg" alt="Web Development">
+                    <h3  style="color: cyan;">Web Development</h3>
+                    <p  style="color: cyan;">Our team builds robust and scalable websites using the latest technologies to ensure top performance.</p>
+                </div>
+                <div class="service">
+                    <img src="images/s.jpeg" alt="SEO Optimization">
+                    <h3  style="color: cyan;">SEO Optimization</h3>
+                    <p  style="color: cyan;">We optimize your website for search engines to improve visibility and drive more traffic to your site.</p>
+                </div>
+                <div class="service">
+                    <img src="images/cont.jpeg" alt="Content Creation">
+                    <h3  style="color: cyan;">Content Creation</h3>
+                    <p  style="color: cyan;">Our content creators develop engaging and relevant content to keep your audience informed and interested.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <h2>Our Process</h2>
+            <div class="process-container">
+                <div class="process-step">
+                    <img src="images/images llllll.jpeg" alt="Step 1">
+                    <h3>Consultation</h3>
+                    <p>We begin with an in-depth consultation to understand your goals and requirements.</p>
+                </div>
+                <div class="process-step">
+                    <img src="images/kkk.jpeg" alt="Step 2">
+                    <h3>Planning</h3>
+                    <p>Our team creates a detailed plan and timeline to ensure the project stays on track.</p>
+                </div>
+                <div class="process-step">
+                    <img src="images/bbbb.jpeg" alt="Step 3">
+                    <h3>Execution</h3>
+                    <p>We execute the plan with precision, focusing on quality and attention to detail.</p>
+                </div>
+                <div class="process-step">
+                    <img src="images/mmmm.jpeg" alt="Step 4">
+                    <h3>Delivery</h3>
+                    <p>We deliver the final product on time and provide ongoing support and maintenance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AgyemanTech. All rights reserved.</p>
+    </footer>
+</body>
+</html>

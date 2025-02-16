@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f0a500;
+}
+
+
+#portfolio-hero {
+    background: url('images/portfolio-hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#portfolio-hero .portfolio-hero-text {
+    background: #333;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#portfolio-hero h1 {
+    font-size: 3rem;
+}
+
+#portfolio-hero p {
+    font-size: 1.25rem;
+}
+
+
+#projects {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1;
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.project p {
+    font-size: 1.1rem;
+}
+
+
+#testimonials {
+    background: #f4f4f4;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    flex: 1;
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="portfolio-hero">
+            <div class="portfolio-hero-text">
+                <h1>Our Portfolio</h1>
+                <p>Explore our diverse range of projects and see how we bring ideas to life.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="images/yt.jpeg" alt="Project 1">
+                    <h3 style="color: yellow;">Web dev</h3>
+                    <p style="color: cyan;">Description of Project 1. This project showcases our expertise in web development and design.</p>
+                </div>
+                <div class="project">
+                    <img src="images/hhu.jpeg" alt="Project 2">
+                    <h3 style="color: yellow;">Photo marketplace</h3>
+                    <p style="color: cyan;">Description of Project 2. This project demonstrates our ability to create dynamic and responsive websites.</p>
+                </div>
+                <div class="project">
+                    <img src="images/ilkk.jpeg" alt="Project 3">
+                    <h3 style="color: yellow;">Market-led</h3>
+                    <p style="color: cyan;">Description of Project 3. This project highlights our skills in SEO optimization and content creation.</p>
+                </div>
+                <div class="project">
+                    <img src="images/bvc.jpeg" alt="Project 4">
+                    <h3 style="color:yellow;">Are you hungry</h3>
+                    <p style="color: cyan;">Description of Project 4. This project reflects our commitment to delivering high-quality digital solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Client Testimonials</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <img src="images/man 1.jpeg" alt="Client 1">
+                    <p>"The best web development team we've ever worked with! Highly recommended."</p>
+                    <h4>Bernard Oduro Agyeman</h4>
+                </div>
+                <div class="testimonial">
+                    <img src="images/man 222.jpeg" alt="Client 2" height="100px">
+                    <p>"Their designs are innovative and their service is top-notch. We couldn't be happier!"</p>
+                    <h4>Elijah Anim</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AgyemanTech. All rights reserved.</p>
+    </footer>
+</body>
+</html>
